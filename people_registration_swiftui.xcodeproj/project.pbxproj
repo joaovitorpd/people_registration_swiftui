@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40209C42DE5FD0400144130 /* .gitignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40209C32DE5FD0400144130 /* .gitignore.swift */; };
 		C43B7A4E2DD27C9900B2D429 /* People_RegistrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B7A4D2DD27C9900B2D429 /* People_RegistrationApp.swift */; };
-		C43B7A502DD27C9900B2D429 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B7A4F2DD27C9900B2D429 /* ContentView.swift */; };
+		C43B7A502DD27C9900B2D429 /* PeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B7A4F2DD27C9900B2D429 /* PeopleList.swift */; };
 		C43B7A522DD27C9C00B2D429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43B7A512DD27C9C00B2D429 /* Assets.xcassets */; };
 		C43B7A562DD27C9C00B2D429 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43B7A552DD27C9C00B2D429 /* Preview Assets.xcassets */; };
 		C43B7A602DD27C9C00B2D429 /* People_RegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B7A5F2DD27C9C00B2D429 /* People_RegistrationTests.swift */; };
 		C43B7A6A2DD27C9C00B2D429 /* People_RegistrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B7A692DD27C9C00B2D429 /* People_RegistrationUITests.swift */; };
 		C43B7A6C2DD27C9C00B2D429 /* People_RegistrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B7A6B2DD27C9C00B2D429 /* People_RegistrationUITestsLaunchTests.swift */; };
+		C43B7A7D2DD2960100B2D429 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B7A7C2DD2960100B2D429 /* Person.swift */; };
+		C4E583CD2DDCFF2A00D06283 /* PeopleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E583CC2DDCFF2A00D06283 /* PeopleData.swift */; };
+		C4E583CF2DDD09C500D06283 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E583CE2DDD09C500D06283 /* PersonRow.swift */; };
+		C4E583D12DDD220C00D06283 /* CustomLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E583D02DDD220C00D06283 /* CustomLabelStyle.swift */; };
+		C4E583D32DDD27BB00D06283 /* PersonEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E583D22DDD27BB00D06283 /* PersonEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C43B7A4A2DD27C9900B2D429 /* People Registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People Registration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40209C32DE5FD0400144130 /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
+		C43B7A4A2DD27C9900B2D429 /* people_registration_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = people_registration_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43B7A4D2DD27C9900B2D429 /* People_RegistrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People_RegistrationApp.swift; sourceTree = "<group>"; };
-		C43B7A4F2DD27C9900B2D429 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C43B7A4F2DD27C9900B2D429 /* PeopleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleList.swift; sourceTree = "<group>"; };
 		C43B7A512DD27C9C00B2D429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C43B7A532DD27C9C00B2D429 /* People_Registration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = People_Registration.entitlements; sourceTree = "<group>"; };
 		C43B7A552DD27C9C00B2D429 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C43B7A5B2DD27C9C00B2D429 /* People RegistrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People RegistrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43B7A5B2DD27C9C00B2D429 /* people_registration_swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = people_registration_swiftuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43B7A5F2DD27C9C00B2D429 /* People_RegistrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People_RegistrationTests.swift; sourceTree = "<group>"; };
-		C43B7A652DD27C9C00B2D429 /* People RegistrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People RegistrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43B7A652DD27C9C00B2D429 /* people_registration_swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = people_registration_swiftuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43B7A692DD27C9C00B2D429 /* People_RegistrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People_RegistrationUITests.swift; sourceTree = "<group>"; };
 		C43B7A6B2DD27C9C00B2D429 /* People_RegistrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People_RegistrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C43B7A7C2DD2960100B2D429 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C4E583CC2DDCFF2A00D06283 /* PeopleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleData.swift; sourceTree = "<group>"; };
+		C4E583CE2DDD09C500D06283 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		C4E583D02DDD220C00D06283 /* CustomLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyle.swift; sourceTree = "<group>"; };
+		C4E583D22DDD27BB00D06283 /* PersonEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +97,9 @@
 		C43B7A4B2DD27C9900B2D429 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C43B7A4A2DD27C9900B2D429 /* People Registration.app */,
-				C43B7A5B2DD27C9C00B2D429 /* People RegistrationTests.xctest */,
-				C43B7A652DD27C9C00B2D429 /* People RegistrationUITests.xctest */,
+				C43B7A4A2DD27C9900B2D429 /* people_registration_swiftui.app */,
+				C43B7A5B2DD27C9C00B2D429 /* people_registration_swiftuiTests.xctest */,
+				C43B7A652DD27C9C00B2D429 /* people_registration_swiftuiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,10 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				C43B7A4D2DD27C9900B2D429 /* People_RegistrationApp.swift */,
-				C43B7A4F2DD27C9900B2D429 /* ContentView.swift */,
+				C43B7A4F2DD27C9900B2D429 /* PeopleList.swift */,
+				C43B7A7C2DD2960100B2D429 /* Person.swift */,
+				C4E583CE2DDD09C500D06283 /* PersonRow.swift */,
+				C4E583D22DDD27BB00D06283 /* PersonEditor.swift */,
+				C4E583CC2DDCFF2A00D06283 /* PeopleData.swift */,
+				C4E583D02DDD220C00D06283 /* CustomLabelStyle.swift */,
 				C43B7A512DD27C9C00B2D429 /* Assets.xcassets */,
 				C43B7A532DD27C9C00B2D429 /* People_Registration.entitlements */,
 				C43B7A542DD27C9C00B2D429 /* Preview Content */,
+				C40209C32DE5FD0400144130 /* .gitignore.swift */,
 			);
 			path = "People Registration";
 			sourceTree = "<group>";
@@ -132,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C43B7A492DD27C9900B2D429 /* People Registration */ = {
+		C43B7A492DD27C9900B2D429 /* people_registration_swiftui */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C43B7A6F2DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "People Registration" */;
+			buildConfigurationList = C43B7A6F2DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "people_registration_swiftui" */;
 			buildPhases = (
 				C43B7A462DD27C9900B2D429 /* Sources */,
 				C43B7A472DD27C9900B2D429 /* Frameworks */,
@@ -144,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = "People Registration";
+			name = people_registration_swiftui;
 			productName = "People Registration";
-			productReference = C43B7A4A2DD27C9900B2D429 /* People Registration.app */;
+			productReference = C43B7A4A2DD27C9900B2D429 /* people_registration_swiftui.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C43B7A5A2DD27C9C00B2D429 /* People RegistrationTests */ = {
+		C43B7A5A2DD27C9C00B2D429 /* people_registration_swiftuiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C43B7A722DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "People RegistrationTests" */;
+			buildConfigurationList = C43B7A722DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "people_registration_swiftuiTests" */;
 			buildPhases = (
 				C43B7A572DD27C9C00B2D429 /* Sources */,
 				C43B7A582DD27C9C00B2D429 /* Frameworks */,
@@ -162,14 +180,14 @@
 			dependencies = (
 				C43B7A5D2DD27C9C00B2D429 /* PBXTargetDependency */,
 			);
-			name = "People RegistrationTests";
+			name = people_registration_swiftuiTests;
 			productName = "People RegistrationTests";
-			productReference = C43B7A5B2DD27C9C00B2D429 /* People RegistrationTests.xctest */;
+			productReference = C43B7A5B2DD27C9C00B2D429 /* people_registration_swiftuiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C43B7A642DD27C9C00B2D429 /* People RegistrationUITests */ = {
+		C43B7A642DD27C9C00B2D429 /* people_registration_swiftuiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C43B7A752DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "People RegistrationUITests" */;
+			buildConfigurationList = C43B7A752DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "people_registration_swiftuiUITests" */;
 			buildPhases = (
 				C43B7A612DD27C9C00B2D429 /* Sources */,
 				C43B7A622DD27C9C00B2D429 /* Frameworks */,
@@ -180,9 +198,9 @@
 			dependencies = (
 				C43B7A672DD27C9C00B2D429 /* PBXTargetDependency */,
 			);
-			name = "People RegistrationUITests";
+			name = people_registration_swiftuiUITests;
 			productName = "People RegistrationUITests";
-			productReference = C43B7A652DD27C9C00B2D429 /* People RegistrationUITests.xctest */;
+			productReference = C43B7A652DD27C9C00B2D429 /* people_registration_swiftuiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C43B7A452DD27C9900B2D429 /* Build configuration list for PBXProject "People Registration" */;
+			buildConfigurationList = C43B7A452DD27C9900B2D429 /* Build configuration list for PBXProject "people_registration_swiftui" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C43B7A492DD27C9900B2D429 /* People Registration */,
-				C43B7A5A2DD27C9C00B2D429 /* People RegistrationTests */,
-				C43B7A642DD27C9C00B2D429 /* People RegistrationUITests */,
+				C43B7A492DD27C9900B2D429 /* people_registration_swiftui */,
+				C43B7A5A2DD27C9C00B2D429 /* people_registration_swiftuiTests */,
+				C43B7A642DD27C9C00B2D429 /* people_registration_swiftuiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C43B7A502DD27C9900B2D429 /* ContentView.swift in Sources */,
+				C4E583CD2DDCFF2A00D06283 /* PeopleData.swift in Sources */,
+				C40209C42DE5FD0400144130 /* .gitignore.swift in Sources */,
+				C4E583D32DDD27BB00D06283 /* PersonEditor.swift in Sources */,
+				C43B7A502DD27C9900B2D429 /* PeopleList.swift in Sources */,
+				C43B7A7D2DD2960100B2D429 /* Person.swift in Sources */,
+				C4E583D12DDD220C00D06283 /* CustomLabelStyle.swift in Sources */,
 				C43B7A4E2DD27C9900B2D429 /* People_RegistrationApp.swift in Sources */,
+				C4E583CF2DDD09C500D06283 /* PersonRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		C43B7A5D2DD27C9C00B2D429 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C43B7A492DD27C9900B2D429 /* People Registration */;
+			target = C43B7A492DD27C9900B2D429 /* people_registration_swiftui */;
 			targetProxy = C43B7A5C2DD27C9C00B2D429 /* PBXContainerItemProxy */;
 		};
 		C43B7A672DD27C9C00B2D429 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C43B7A492DD27C9900B2D429 /* People Registration */;
+			target = C43B7A492DD27C9900B2D429 /* people_registration_swiftui */;
 			targetProxy = C43B7A662DD27C9C00B2D429 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,7 +530,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People Registration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/People Registration";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/people_registration_swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/people_registration_swiftui";
 			};
 			name = Debug;
 		};
@@ -529,7 +553,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People Registration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/People Registration";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/people_registration_swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/people_registration_swiftui";
 			};
 			name = Release;
 		};
@@ -580,7 +604,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C43B7A452DD27C9900B2D429 /* Build configuration list for PBXProject "People Registration" */ = {
+		C43B7A452DD27C9900B2D429 /* Build configuration list for PBXProject "people_registration_swiftui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C43B7A6D2DD27C9C00B2D429 /* Debug */,
@@ -589,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C43B7A6F2DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "People Registration" */ = {
+		C43B7A6F2DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "people_registration_swiftui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C43B7A702DD27C9C00B2D429 /* Debug */,
@@ -598,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C43B7A722DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "People RegistrationTests" */ = {
+		C43B7A722DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "people_registration_swiftuiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C43B7A732DD27C9C00B2D429 /* Debug */,
@@ -607,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C43B7A752DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "People RegistrationUITests" */ = {
+		C43B7A752DD27C9C00B2D429 /* Build configuration list for PBXNativeTarget "people_registration_swiftuiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C43B7A762DD27C9C00B2D429 /* Debug */,

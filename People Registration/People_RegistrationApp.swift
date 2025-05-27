@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct People_RegistrationApp: App {
+    @StateObject var people = PeopleData()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PeopleList(people: people)
+                .task {
+                    people.load()
+                }
+                .onChange(of: people.people, people.save)
         }
     }
 }
