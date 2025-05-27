@@ -1,9 +1,3 @@
-//
-//  README.md
-//  people_registration_swiftui
-//
-//  Created by João Vitor Pires Dias on 27/05/25.
-//
 # People Registration App
 
 A SwiftUI demo project exploring local data persistence in iOS/macOS applications.

@@ -89,6 +89,7 @@
 		C43B7A412DD27C9900B2D429 = {
 			isa = PBXGroup;
 			children = (
+				C40209C52DE5FFC100144130 /* README.md */,
 				C43B7A4C2DD27C9900B2D429 /* People Registration */,
 				C43B7A5E2DD27C9C00B2D429 /* People RegistrationTests */,
 				C43B7A682DD27C9C00B2D429 /* People RegistrationUITests */,
@@ -120,7 +121,6 @@
 				C43B7A532DD27C9C00B2D429 /* People_Registration.entitlements */,
 				C43B7A542DD27C9C00B2D429 /* Preview Content */,
 				C40209C32DE5FD0400144130 /* .gitignore.swift */,
-				C40209C52DE5FFC100144130 /* README.md */,
 			);
 			path = "People Registration";
 			sourceTree = "<group>";
