@@ -1,11 +1,3 @@
-//
-//  .gitignore.swift
-//  people_registration_swiftui
-//
-//  Created by João Vitor Pires Dias on 27/05/25.
-//
-
-
 # Xcode build e cache
 DerivedData/
 build/
