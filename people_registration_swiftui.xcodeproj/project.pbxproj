@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C40209C42DE5FD0400144130 /* .gitignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40209C32DE5FD0400144130 /* .gitignore.swift */; };
+		C40209C62DE5FFC100144130 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C40209C52DE5FFC100144130 /* README.md */; };
 		C43B7A4E2DD27C9900B2D429 /* People_RegistrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B7A4D2DD27C9900B2D429 /* People_RegistrationApp.swift */; };
 		C43B7A502DD27C9900B2D429 /* PeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B7A4F2DD27C9900B2D429 /* PeopleList.swift */; };
 		C43B7A522DD27C9C00B2D429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43B7A512DD27C9C00B2D429 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		C40209C32DE5FD0400144130 /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
+		C40209C52DE5FFC100144130 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C43B7A4A2DD27C9900B2D429 /* people_registration_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = people_registration_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43B7A4D2DD27C9900B2D429 /* People_RegistrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People_RegistrationApp.swift; sourceTree = "<group>"; };
 		C43B7A4F2DD27C9900B2D429 /* PeopleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleList.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				C43B7A532DD27C9C00B2D429 /* People_Registration.entitlements */,
 				C43B7A542DD27C9C00B2D429 /* Preview Content */,
 				C40209C32DE5FD0400144130 /* .gitignore.swift */,
+				C40209C52DE5FFC100144130 /* README.md */,
 			);
 			path = "People Registration";
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40209C62DE5FFC100144130 /* README.md in Resources */,
 				C43B7A562DD27C9C00B2D429 /* Preview Assets.xcassets in Resources */,
 				C43B7A522DD27C9C00B2D429 /* Assets.xcassets in Resources */,
 			);
