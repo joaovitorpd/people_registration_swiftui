@@ -21,6 +21,8 @@ class PeopleData: ObservableObject {
     )
     ]
     
+    @Published var hasValidationError = false
+    
     func add(_ person: Person) {
         people.append(person)
     }

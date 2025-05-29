@@ -14,6 +14,11 @@ struct PeopleList: View {
     
     @State private var selection: Person?
     
+    var disableAddButton: Bool {
+        !Person.isValidName(newPerson.name) || !Person.isValidEmail(newPerson.email) ||
+        !Person.isDescriptionValid(newPerson.description)
+    }
+    
     var body: some View {
         NavigationSplitView {
             List(selection: $selection) {
@@ -26,7 +31,7 @@ struct PeopleList: View {
                                 people.remove(person)
                             } label: {
                                 Label("Delete", systemImage: "trash")
-                            }
+                            }.disabled(people.hasValidationError)
                         }
                 }
             }
@@ -44,6 +49,7 @@ struct PeopleList: View {
             .sheet(isPresented: $isAddingPerson) {
                 NavigationStack {
                     PersonEditor(person: $newPerson, isNewPerson: true)
+                        .environmentObject(people)
                         .toolbar {
                             ToolbarItem(placement: .cancellationAction) {
                                 Button("Cancel") {
@@ -56,9 +62,7 @@ struct PeopleList: View {
                                     isAddingPerson = false
                                 } label: {
                                     Text("Add")
-                                }.disabled(newPerson.name.isEmpty)
-                                    .disabled(newPerson.email.isEmpty)
-                                    .disabled(newPerson.description.isEmpty)
+                                }.disabled(disableAddButton)
                             }
                         }
                 }
@@ -66,11 +70,12 @@ struct PeopleList: View {
         } detail: {
             ZStack {
                 if let person = selection, let personBinding = people.getBindingToPerson(person) {
-                    PersonEditor(person: personBinding)
-                }else {
-                    Text("Select Person")
-                        .foregroundStyle(.secondary)
-                }
+                            PersonEditor(person: personBinding)
+                                .environmentObject(people)
+                        } else {
+                            Text("Select Person")
+                                .foregroundStyle(.secondary)
+                        }
             }
         }
     }
